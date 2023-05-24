@@ -22,10 +22,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('', include('device_detection.urls')),
-
-
     path('', include('file.urls')),
-    # path('', include('file.urls')),
     path('', include('myapp.dynamic_urls')),
     path('admin/', admin.site.urls),
     path('', include('myapp.urls')),
@@ -33,5 +30,4 @@ urlpatterns = [
 
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-# from device_detection.urls import *
-# from device_detection.urls import *
+

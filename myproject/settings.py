@@ -34,7 +34,6 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'device_detection',
 
-
     'file',
     # 'file',
    

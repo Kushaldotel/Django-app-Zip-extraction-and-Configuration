@@ -1,5 +1,3 @@
-<!-- success.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Successful</title>
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- AdminLTE CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.0.5/dist/css/adminlte.min.css">
 </head>
-<body>
-    <h1>File successfully uploaded.</h1>
-    <a href="{% url 'myapp:upload' %}">Back to upload</a>
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="container-fluid">
+                <h1>File successfully uploaded.</h1>
+                <a href="{% url 'myapp:upload' %}" class="btn btn-primary">Back to Upload</a>
+            </div>
+        </section>
+        <!-- /.content -->
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- AdminLTE JS -->
+    <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.0.5/dist/js/adminlte.min.js"></script>
 </body>
 </html>
