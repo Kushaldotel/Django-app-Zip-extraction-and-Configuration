@@ -16,3 +16,6 @@ Now simply upload the Zip file of a django app and it will be automatically conf
 ![Screenshot 2023-05-24 102105](https://github.com/Kushaldotel/Django-app-Zip-extraction-and-Configuration/assets/114340617/3a34df35-309a-4df7-bbd3-48f442271dd8)
 
 ![Screenshot 2023-05-24 102129](https://github.com/Kushaldotel/Django-app-Zip-extraction-and-Configuration/assets/114340617/43738f49-3404-433c-9196-39ee58c37e5b)
+
+Upload This kind of Django app Zip file. It will be automatically configured.
+![Screenshot 2023-05-24 102149](https://github.com/Kushaldotel/Django-app-Zip-extraction-and-Configuration/assets/114340617/dec9ea16-7d89-43ab-ae6f-62d71c42b04f)
